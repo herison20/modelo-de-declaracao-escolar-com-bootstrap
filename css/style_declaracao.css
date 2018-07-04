@@ -1,0 +1,52 @@
+
+.bloco{
+    font-family: "Arial";
+    font-size: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+   
+    width: 1000px;
+    background-color: #F7F8FA;
+    border: 5px 5px 5px 5px  #888;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px #666;
+}
+.bloco-data{
+
+    margin-top: 300px;
+
+
+
+}
+.bloco-rodape{
+    margin-top: 200px;
+    font-size: 18px;
+
+
+
+}
+.bloco-data{
+
+    margin-top: 300px;
+
+
+
+}
+.fonte-assinatura{
+	font-size: 9px;
+
+}
+p {
+    padding-top: 40px;
+    margin: auto;
+    width: 800px;
+    text-align: justify;
+    text-indent:50px;
+
+}
+.paragrafo{
+    line-height:1.8;
+}
+#titulo{
+    margin-top: 80px;
+}
