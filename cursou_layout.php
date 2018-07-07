@@ -6,10 +6,12 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/style_declaracao.css">
+    <link rel="stylesheet" type="text/css" href="css/botao_imprimir.css" media="print">
 </head>
 
 <body>
-<div class="container bloco ">
+<div class="container bloco-declaracao ">
+
     <div>
         <h3 class="text-center" >LOGO DA FACULDADE</h3>
         <img src="" alt="">
@@ -27,7 +29,7 @@
         <p class="text-right">Secretária</p>
     </div>
 
-    <div class="row bloco-rodape">
+    <div class="row bloco-rodape-cursou">
 
         <p class="text-center ">
             <span style="font-weight: 600"><br>NOME DA FACULDADE</span><br>
@@ -38,6 +40,11 @@
             <span style="font-weight: 600">Dada de Validade do documento</span><br>
         </p>
 
+    </div>
+    <div class="row imprimir">
+        <hr>
+            <input type="button" class="btn btn-default btn-lg imprimir text-cneter" value="Imprimir" onClick="window.print()"/>
+        <hr>  
     </div>
 
 </div>
